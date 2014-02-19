@@ -361,6 +361,11 @@ nav {
 	z-index: 999999;
 }
 
+.bt-menu ul li {
+	font-size: 14px;
+}
+
+
 .bt-menu.bt-menu-open {
 	height: 100%;
 	border-width: 0px 0px 0px 200px;
@@ -576,7 +581,7 @@ nav {
 .bt-menu ul:first-of-type li a:focus,
 .bt-menu ul li a:hover:before,
 .bt-menu ul li a:focus:before {
-	color: #b29f16;
+	color: #00CED1;
 }
 
 
@@ -782,7 +787,7 @@ nav {
 		outline: none;
 		padding: 10px;
 		text-align: center;
-		border: 3px solid #b29f16;
+		border: 3px solid #00CED1;
 		border-radius: 6px;
 		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(0, 0, 0, 0.2);
 		background: transparent;

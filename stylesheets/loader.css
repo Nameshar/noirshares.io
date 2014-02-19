@@ -1,5 +1,5 @@
 body.royal_loader {
-    background: none;
+    background-color: #000;
     visibility: hidden;
 }
 #royal_preloader {
@@ -27,7 +27,7 @@ body.royal_loader {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background-color: #fff;
+    background-color: #000;
     -webkit-transition: background 0.5s linear;
        -moz-transition: background 0.5s linear;
         -ms-transition: background 0.5s linear;
@@ -56,7 +56,7 @@ body.royal_loader {
 }
 #royal_preloader.number .percentage {
     font-family: "Open Sans", Times, serif;
-    color: #424242;
+    color: #FFF;
     text-align: center;
     margin: -90px 0px 0px -90px;
     background-image: url('../images/loading.gif');
